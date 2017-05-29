@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198A74CEA79CBEA838C0BC19 /* libPods-appnext-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 214B85B6A791C7D2FE47F431 /* libPods-appnext-sample.a */; };
+		E912C9571EDC34C100F9C2FD /* BPAppnextProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C9531EDC34C100F9C2FD /* BPAppnextProvider.m */; };
+		E912C9581EDC34C100F9C2FD /* BPAppNextSlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C9551EDC34C100F9C2FD /* BPAppNextSlotView.m */; };
+		E912C9591EDC34C100F9C2FD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E912C9561EDC34C100F9C2FD /* Media.xcassets */; };
+		E912C9691EDC3C5A00F9C2FD /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E912C9671EDC3C5A00F9C2FD /* libAppnextNativeAdsSDK.a */; };
+		E912C96A1EDC3C5A00F9C2FD /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E912C9681EDC3C5A00F9C2FD /* libAppnextSDKCore.a */; };
+		E912C9701EDC3CB200F9C2FD /* BPAdNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C96C1EDC3CB200F9C2FD /* BPAdNativeView.m */; };
+		E912C9711EDC3CB200F9C2FD /* BPAdNativeViews.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C96E1EDC3CB200F9C2FD /* BPAdNativeViews.m */; };
+		E912C9721EDC3CB200F9C2FD /* BPAdNativeViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = E912C96F1EDC3CB200F9C2FD /* BPAdNativeViews.xib */; };
+		E912C9761EDC3D0000F9C2FD /* UIShadowRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C9751EDC3D0000F9C2FD /* UIShadowRoundedImageView.m */; };
+		E912C97B1EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C9781EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.m */; };
+		E912C97F1EDC439C00F9C2FD /* BPSponsoredLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E912C97E1EDC439C00F9C2FD /* BPSponsoredLabel.m */; };
+		E919AA9D1E3E501900989739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E919AA9C1E3E501900989739 /* main.m */; };
+		E919AAA01E3E501900989739 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E919AA9F1E3E501900989739 /* AppDelegate.m */; };
+		E919AAA61E3E501900989739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E919AAA41E3E501900989739 /* Main.storyboard */; };
+		E919AAA81E3E501900989739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E919AAA71E3E501900989739 /* Assets.xcassets */; };
+		E919AAAB1E3E501900989739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E919AAA91E3E501900989739 /* LaunchScreen.storyboard */; };
+		E919AAE71E3E586A00989739 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E919AAE61E3E586A00989739 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E919AAE91E3E589D00989739 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E919AAE81E3E589D00989739 /* SystemConfiguration.framework */; };
+		E919AAEA1E3E58AC00989739 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E919AAE41E3E585E00989739 /* CoreTelephony.framework */; };
+		E919AAED1E3E5B7C00989739 /* BPFooterBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E919AAEC1E3E5B7C00989739 /* BPFooterBannerViewController.m */; };
+		E919AAF01E3E5D4700989739 /* BPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E919AAEF1E3E5D4700989739 /* BPAdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		214B85B6A791C7D2FE47F431 /* libPods-appnext-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appnext-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A759554F248260F63D1F46C /* Pods-appnext-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appnext-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appnext-sample/Pods-appnext-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		AD90E527ADE79A3F37F80D27 /* Pods-appnext-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appnext-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-appnext-sample/Pods-appnext-sample.release.xcconfig"; sourceTree = "<group>"; };
+		E912C9521EDC34C000F9C2FD /* BPAppnextProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAppnextProvider.h; sourceTree = "<group>"; };
+		E912C9531EDC34C100F9C2FD /* BPAppnextProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAppnextProvider.m; sourceTree = "<group>"; };
+		E912C9541EDC34C100F9C2FD /* BPAppNextSlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAppNextSlotView.h; sourceTree = "<group>"; };
+		E912C9551EDC34C100F9C2FD /* BPAppNextSlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAppNextSlotView.m; sourceTree = "<group>"; };
+		E912C9561EDC34C100F9C2FD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E912C95D1EDC3C5A00F9C2FD /* AppnextNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAd.h; sourceTree = "<group>"; };
+		E912C95E1EDC3C5A00F9C2FD /* AppnextNativeAdsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsRequest.h; sourceTree = "<group>"; };
+		E912C95F1EDC3C5A00F9C2FD /* AppnextNativeAdsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsSDK.h; sourceTree = "<group>"; };
+		E912C9601EDC3C5A00F9C2FD /* AppnextNativeAdsSDKApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsSDKApi.h; sourceTree = "<group>"; };
+		E912C9621EDC3C5A00F9C2FD /* AppnextAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAd.h; sourceTree = "<group>"; };
+		E912C9631EDC3C5A00F9C2FD /* AppnextAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdConfiguration.h; sourceTree = "<group>"; };
+		E912C9641EDC3C5A00F9C2FD /* AppnextAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdData.h; sourceTree = "<group>"; };
+		E912C9651EDC3C5A00F9C2FD /* AppnextSDKCoreApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCoreApi.h; sourceTree = "<group>"; };
+		E912C9661EDC3C5A00F9C2FD /* AppnextSDKCorePublicDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCorePublicDefs.h; sourceTree = "<group>"; };
+		E912C9671EDC3C5A00F9C2FD /* libAppnextNativeAdsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextNativeAdsSDK.a; sourceTree = "<group>"; };
+		E912C9681EDC3C5A00F9C2FD /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
+		E912C96B1EDC3CB200F9C2FD /* BPAdNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAdNativeView.h; sourceTree = "<group>"; };
+		E912C96C1EDC3CB200F9C2FD /* BPAdNativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAdNativeView.m; sourceTree = "<group>"; };
+		E912C96D1EDC3CB200F9C2FD /* BPAdNativeViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAdNativeViews.h; sourceTree = "<group>"; };
+		E912C96E1EDC3CB200F9C2FD /* BPAdNativeViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAdNativeViews.m; sourceTree = "<group>"; };
+		E912C96F1EDC3CB200F9C2FD /* BPAdNativeViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPAdNativeViews.xib; sourceTree = "<group>"; };
+		E912C9741EDC3D0000F9C2FD /* UIShadowRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIShadowRoundedImageView.h; sourceTree = "<group>"; };
+		E912C9751EDC3D0000F9C2FD /* UIShadowRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIShadowRoundedImageView.m; sourceTree = "<group>"; };
+		E912C9771EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAdSlotImpressionsTracker.h; sourceTree = "<group>"; };
+		E912C9781EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAdSlotImpressionsTracker.m; sourceTree = "<group>"; };
+		E912C97D1EDC439C00F9C2FD /* BPSponsoredLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPSponsoredLabel.h; sourceTree = "<group>"; };
+		E912C97E1EDC439C00F9C2FD /* BPSponsoredLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPSponsoredLabel.m; sourceTree = "<group>"; };
+		E919AA981E3E501900989739 /* appnext-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appnext-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E919AA9C1E3E501900989739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E919AA9E1E3E501900989739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E919AA9F1E3E501900989739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E919AAA51E3E501900989739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E919AAA71E3E501900989739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E919AAAA1E3E501900989739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E919AAAC1E3E501900989739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E919AABC1E3E512600989739 /* BPAdContentProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAdContentProvider.h; sourceTree = "<group>"; };
+		E919AABD1E3E512600989739 /* BPAdSlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAdSlot.h; sourceTree = "<group>"; };
+		E919AAE21E3E55D500989739 /* BPAdSlotImpressionProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAdSlotImpressionProtocols.h; sourceTree = "<group>"; };
+		E919AAE41E3E585E00989739 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E919AAE61E3E586A00989739 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E919AAE81E3E589D00989739 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E919AAEB1E3E5B7C00989739 /* BPFooterBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPFooterBannerViewController.h; sourceTree = "<group>"; };
+		E919AAEC1E3E5B7C00989739 /* BPFooterBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPFooterBannerViewController.m; sourceTree = "<group>"; };
+		E919AAEE1E3E5D4700989739 /* BPAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAdViewController.h; sourceTree = "<group>"; };
+		E919AAEF1E3E5D4700989739 /* BPAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E919AA951E3E501900989739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E919AAEA1E3E58AC00989739 /* CoreTelephony.framework in Frameworks */,
+				E912C9691EDC3C5A00F9C2FD /* libAppnextNativeAdsSDK.a in Frameworks */,
+				E919AAE91E3E589D00989739 /* SystemConfiguration.framework in Frameworks */,
+				E919AAE71E3E586A00989739 /* AdSupport.framework in Frameworks */,
+				E912C96A1EDC3C5A00F9C2FD /* libAppnextSDKCore.a in Frameworks */,
+				198A74CEA79CBEA838C0BC19 /* libPods-appnext-sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC574E8EE828625EE2EFBF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A759554F248260F63D1F46C /* Pods-appnext-sample.debug.xcconfig */,
+				AD90E527ADE79A3F37F80D27 /* Pods-appnext-sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E912C95A1EDC3C5A00F9C2FD /* AppnextNativeAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E912C95B1EDC3C5A00F9C2FD /* include */,
+				E912C9671EDC3C5A00F9C2FD /* libAppnextNativeAdsSDK.a */,
+				E912C9681EDC3C5A00F9C2FD /* libAppnextSDKCore.a */,
+			);
+			path = AppnextNativeAdsSDK;
+			sourceTree = "<group>";
+		};
+		E912C95B1EDC3C5A00F9C2FD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E912C95C1EDC3C5A00F9C2FD /* AppnextNativeAdsSDK */,
+				E912C9611EDC3C5A00F9C2FD /* AppnextSDKCore */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E912C95C1EDC3C5A00F9C2FD /* AppnextNativeAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E912C95D1EDC3C5A00F9C2FD /* AppnextNativeAd.h */,
+				E912C95E1EDC3C5A00F9C2FD /* AppnextNativeAdsRequest.h */,
+				E912C95F1EDC3C5A00F9C2FD /* AppnextNativeAdsSDK.h */,
+				E912C9601EDC3C5A00F9C2FD /* AppnextNativeAdsSDKApi.h */,
+			);
+			path = AppnextNativeAdsSDK;
+			sourceTree = "<group>";
+		};
+		E912C9611EDC3C5A00F9C2FD /* AppnextSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				E912C9621EDC3C5A00F9C2FD /* AppnextAd.h */,
+				E912C9631EDC3C5A00F9C2FD /* AppnextAdConfiguration.h */,
+				E912C9641EDC3C5A00F9C2FD /* AppnextAdData.h */,
+				E912C9651EDC3C5A00F9C2FD /* AppnextSDKCoreApi.h */,
+				E912C9661EDC3C5A00F9C2FD /* AppnextSDKCorePublicDefs.h */,
+			);
+			path = AppnextSDKCore;
+			sourceTree = "<group>";
+		};
+		E912C9731EDC3CBE00F9C2FD /* Native Views */ = {
+			isa = PBXGroup;
+			children = (
+				E912C97D1EDC439C00F9C2FD /* BPSponsoredLabel.h */,
+				E912C97E1EDC439C00F9C2FD /* BPSponsoredLabel.m */,
+				E912C9741EDC3D0000F9C2FD /* UIShadowRoundedImageView.h */,
+				E912C9751EDC3D0000F9C2FD /* UIShadowRoundedImageView.m */,
+				E912C96B1EDC3CB200F9C2FD /* BPAdNativeView.h */,
+				E912C96C1EDC3CB200F9C2FD /* BPAdNativeView.m */,
+				E912C96D1EDC3CB200F9C2FD /* BPAdNativeViews.h */,
+				E912C96E1EDC3CB200F9C2FD /* BPAdNativeViews.m */,
+				E912C96F1EDC3CB200F9C2FD /* BPAdNativeViews.xib */,
+			);
+			name = "Native Views";
+			sourceTree = "<group>";
+		};
+		E919AA8F1E3E501900989739 = {
+			isa = PBXGroup;
+			children = (
+				E919AA9A1E3E501900989739 /* appnext-sample */,
+				E919AA991E3E501900989739 /* Products */,
+				E919AAE31E3E585E00989739 /* Frameworks */,
+				5EC574E8EE828625EE2EFBF8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E919AA991E3E501900989739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E919AA981E3E501900989739 /* appnext-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E919AA9A1E3E501900989739 /* appnext-sample */ = {
+			isa = PBXGroup;
+			children = (
+				E919AAA41E3E501900989739 /* Main.storyboard */,
+				E91E9A9A1E3E6B3E0048EDE5 /* Protocols */,
+				E91E9A9B1E3E6B740048EDE5 /* ViewControllers */,
+				E912C95A1EDC3C5A00F9C2FD /* AppnextNativeAdsSDK */,
+				E912C9731EDC3CBE00F9C2FD /* Native Views */,
+				E919AA9E1E3E501900989739 /* AppDelegate.h */,
+				E919AA9F1E3E501900989739 /* AppDelegate.m */,
+				E912C9521EDC34C000F9C2FD /* BPAppnextProvider.h */,
+				E912C9531EDC34C100F9C2FD /* BPAppnextProvider.m */,
+				E912C9541EDC34C100F9C2FD /* BPAppNextSlotView.h */,
+				E912C9551EDC34C100F9C2FD /* BPAppNextSlotView.m */,
+				E912C9771EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.h */,
+				E912C9781EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.m */,
+				E912C9561EDC34C100F9C2FD /* Media.xcassets */,
+				E919AAA71E3E501900989739 /* Assets.xcassets */,
+				E919AAA91E3E501900989739 /* LaunchScreen.storyboard */,
+				E919AAAC1E3E501900989739 /* Info.plist */,
+				E919AA9B1E3E501900989739 /* Supporting Files */,
+			);
+			path = "appnext-sample";
+			sourceTree = "<group>";
+		};
+		E919AA9B1E3E501900989739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E919AA9C1E3E501900989739 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E919AAE31E3E585E00989739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E919AAE81E3E589D00989739 /* SystemConfiguration.framework */,
+				E919AAE61E3E586A00989739 /* AdSupport.framework */,
+				E919AAE41E3E585E00989739 /* CoreTelephony.framework */,
+				214B85B6A791C7D2FE47F431 /* libPods-appnext-sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91E9A9A1E3E6B3E0048EDE5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E919AABC1E3E512600989739 /* BPAdContentProvider.h */,
+				E919AABD1E3E512600989739 /* BPAdSlot.h */,
+				E919AAE21E3E55D500989739 /* BPAdSlotImpressionProtocols.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E91E9A9B1E3E6B740048EDE5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E919AAEE1E3E5D4700989739 /* BPAdViewController.h */,
+				E919AAEF1E3E5D4700989739 /* BPAdViewController.m */,
+				E919AAEB1E3E5B7C00989739 /* BPFooterBannerViewController.h */,
+				E919AAEC1E3E5B7C00989739 /* BPFooterBannerViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E919AA971E3E501900989739 /* appnext-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E919AAAF1E3E501900989739 /* Build configuration list for PBXNativeTarget "appnext-sample" */;
+			buildPhases = (
+				98003B5C1568AE375A2FE9E9 /* [CP] Check Pods Manifest.lock */,
+				E919AA941E3E501900989739 /* Sources */,
+				E919AA951E3E501900989739 /* Frameworks */,
+				E919AA961E3E501900989739 /* Resources */,
+				D57AC595A452B033332BEF6A /* [CP] Embed Pods Frameworks */,
+				13E089035F631A0FFC0E5FB4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appnext-sample";
+			productName = "adadapted-sample";
+			productReference = E919AA981E3E501900989739 /* appnext-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E919AA901E3E501900989739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Buy Me a Pie!";
+				TargetAttributes = {
+					E919AA971E3E501900989739 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5Z4N36E7UF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E919AA931E3E501900989739 /* Build configuration list for PBXProject "appnext-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E919AA8F1E3E501900989739;
+			productRefGroup = E919AA991E3E501900989739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E919AA971E3E501900989739 /* appnext-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E919AA961E3E501900989739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E919AAAB1E3E501900989739 /* LaunchScreen.storyboard in Resources */,
+				E919AAA81E3E501900989739 /* Assets.xcassets in Resources */,
+				E912C9591EDC34C100F9C2FD /* Media.xcassets in Resources */,
+				E919AAA61E3E501900989739 /* Main.storyboard in Resources */,
+				E912C9721EDC3CB200F9C2FD /* BPAdNativeViews.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13E089035F631A0FFC0E5FB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appnext-sample/Pods-appnext-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98003B5C1568AE375A2FE9E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D57AC595A452B033332BEF6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appnext-sample/Pods-appnext-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E919AA941E3E501900989739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E912C9761EDC3D0000F9C2FD /* UIShadowRoundedImageView.m in Sources */,
+				E912C9711EDC3CB200F9C2FD /* BPAdNativeViews.m in Sources */,
+				E912C97F1EDC439C00F9C2FD /* BPSponsoredLabel.m in Sources */,
+				E912C97B1EDC3D3600F9C2FD /* BPAdSlotImpressionsTracker.m in Sources */,
+				E912C9571EDC34C100F9C2FD /* BPAppnextProvider.m in Sources */,
+				E919AAED1E3E5B7C00989739 /* BPFooterBannerViewController.m in Sources */,
+				E919AAA01E3E501900989739 /* AppDelegate.m in Sources */,
+				E912C9581EDC34C100F9C2FD /* BPAppNextSlotView.m in Sources */,
+				E919AAF01E3E5D4700989739 /* BPAdViewController.m in Sources */,
+				E919AA9D1E3E501900989739 /* main.m in Sources */,
+				E912C9701EDC3CB200F9C2FD /* BPAdNativeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E919AAA41E3E501900989739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E919AAA51E3E501900989739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E919AAA91E3E501900989739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E919AAAA1E3E501900989739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E919AAAD1E3E501900989739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/appnext-sample/AppnextNativeAdsSDK/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E919AAAE1E3E501900989739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/appnext-sample/AppnextNativeAdsSDK/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E919AAB01E3E501900989739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A759554F248260F63D1F46C /* Pods-appnext-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z4N36E7UF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appnext-sample",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/appnext-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appnext-sample/AppnextNativeAdsSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pivl.piefree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		E919AAB11E3E501900989739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD90E527ADE79A3F37F80D27 /* Pods-appnext-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z4N36E7UF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appnext-sample",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/appnext-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/appnext-sample/AppnextNativeAdsSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pivl.piefree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E919AA931E3E501900989739 /* Build configuration list for PBXProject "appnext-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E919AAAD1E3E501900989739 /* Debug */,
+				E919AAAE1E3E501900989739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E919AAAF1E3E501900989739 /* Build configuration list for PBXNativeTarget "appnext-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E919AAB01E3E501900989739 /* Debug */,
+				E919AAB11E3E501900989739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E919AA901E3E501900989739 /* Project object */;
+}
